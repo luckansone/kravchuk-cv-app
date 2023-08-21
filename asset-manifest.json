@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kravchuk-cv-app/static/css/main.b1dac149.css",
-    "main.js": "/kravchuk-cv-app/static/js/main.c0b5a36d.js",
+    "main.js": "/kravchuk-cv-app/static/js/main.9369394f.js",
     "static/js/193.cda528d4.chunk.js": "/kravchuk-cv-app/static/js/193.cda528d4.chunk.js",
     "static/media/background.jpeg": "/kravchuk-cv-app/static/media/background.45fd9539345b5db81fe7.jpeg",
     "static/media/avatar.JPG": "/kravchuk-cv-app/static/media/avatar.7bd9c82c248a317734d2.JPG",
@@ -13,11 +13,11 @@
     "static/media/file-icon.jpeg": "/kravchuk-cv-app/static/media/file-icon.aa7d60d61b72aa062a88.jpeg",
     "index.html": "/kravchuk-cv-app/index.html",
     "main.b1dac149.css.map": "/kravchuk-cv-app/static/css/main.b1dac149.css.map",
-    "main.c0b5a36d.js.map": "/kravchuk-cv-app/static/js/main.c0b5a36d.js.map",
+    "main.9369394f.js.map": "/kravchuk-cv-app/static/js/main.9369394f.js.map",
     "193.cda528d4.chunk.js.map": "/kravchuk-cv-app/static/js/193.cda528d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1dac149.css",
-    "static/js/main.c0b5a36d.js"
+    "static/js/main.9369394f.js"
   ]
 }
