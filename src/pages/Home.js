@@ -8,7 +8,7 @@ const Home = () => {
     <PageContent title="Welcome to my CV application!" page={pages.HOME}>
       <p>Are you prepared to proceed?</p>
       <p>
-        Kindly navigate to the <Link to="/profile">Profile Page</Link> to
+        Kindly navigate to the <Link to="profile">Profile Page</Link> to
         explore my array of hard skills.
       </p>
       <p>

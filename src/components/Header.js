@@ -79,7 +79,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/kravchuk-cv-app/profile" className={getLinkClass}>
+              <NavLink to="profile" className={getLinkClass}>
                 Profile
               </NavLink>
             </li>
