@@ -69,7 +69,7 @@ const ProfileContent = () => {
                 </span>
               </div>
               <div className={classes.item}>
-                <span>Ukraine</span>
+                <span>Ukrainian</span>
                 <span>
                   <i>Native</i>
                 </span>
