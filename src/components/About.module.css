@@ -1,0 +1,28 @@
+.about-content {
+    font-size: 20px;
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+.header-wrapper h1 {
+    flex: 1;
+    margin-block-start: 0.4em;
+    margin-block-end: 0;
+}
+
+.header-wrapper .close-icon {
+    margin-block-start: 0.5em;
+}
+
+.header-wrapper .close-icon:before {
+    content: '\00d7';
+    color: var(--color-gray-700);
+    font-size: 3em;
+}
+
+.header-wrapper .close-icon:hover::before {
+    color: var(--color-primary-300);
+    cursor: pointer;
+}

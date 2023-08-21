@@ -1,0 +1,90 @@
+.page-content {
+    position: relative;
+    margin: 12% auto;
+    width: 45%;
+    height: 45%;
+    z-index: 30;
+    animation: slide-down 500ms ease-out forwards;
+}
+
+.page-content.profile, .page-content.education {
+    width: 70%;
+}
+
+.page-content.profile {
+    margin: 1% auto;
+    padding: 0.6%;
+}
+
+.page-content-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background-image: url(/src/img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+}
+
+.page-content h1 {
+    text-align: center;
+    line-height: 32px;
+}
+
+.page-content > div {
+    font-size: 20px;
+}
+
+.page-content > div > p:first-child {
+    text-align: center;
+}
+
+.page-content > div p {
+    line-height: 27px;
+}
+
+@keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .page-content a {
+    color: var(--color-gray-700);
+    text-decoration: underline;
+  }
+
+  .page-content a:hover {
+    text-decoration: unset;
+  }
+
+/*tablet*/
+@media (max-width:1125px) {
+    .page-content  {
+        width: 80%;
+    }
+}
+  /*phone*/
+@media (max-width:600px) {
+
+    .page-content  {
+        width: 90%;
+    }
+
+    .page-content.profile, .page-content.education {
+        width: 90%;
+        margin: 3% auto;
+    }
+}
