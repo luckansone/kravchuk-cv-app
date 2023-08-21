@@ -66,7 +66,7 @@ const Header = () => {
           >
             <li>
               <NavLink
-                to="/"
+                to="/kravchuk-cv-app"
                 className={({ isActive }) =>
                   isActive
                     ? `${classes.active} ${classes["main-link"]}`
@@ -79,7 +79,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="profile" className={getLinkClass}>
+              <NavLink to="/kravchuk-cv-app/profile" className={getLinkClass}>
                 Profile
               </NavLink>
             </li>

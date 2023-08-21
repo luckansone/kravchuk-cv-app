@@ -8,7 +8,7 @@ const ErrorPage = lazy(() => import("./pages/Error"));
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/kravchuk-cv-app",
     element: <RootLayout />,
     errorElement: (
       <Suspense>
